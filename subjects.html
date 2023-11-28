@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Computer Science Department</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<style>
+body, html {
+  height: 70%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.bg {
+  
+  background-image:url("images/newback205.jpg"),
+  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7))
+  ;
+
+  height: 100%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 350px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position:relative;
+    
+}
+.nav-links ul li a{
+    color: #241c66;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li ::after{
+    content:'';
+    width: 0%;
+    height:2px;
+    background: rgb(24, 22, 22);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width: 100%
+}
+.text-box{
+    width:90%;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.test-box h1{
+    font-size: 92px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #241c66;
+    background: #241c66;
+    transition: 1s;
+}
+.toknow{
+    WIDTH: 80%;
+    margin:auto;
+    text-align:left;
+    padding-top:10px;
+}
+h1{
+    font-size: 36px;
+    font-weight:600;
+}
+h3{
+    font-size: 15px;
+    text-align: left;
+}
+h4{
+    font-size: 12px;
+    text-align: left;
+}
+
+</style>
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a herf="index. html"><img src="images/copsciencebar.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="subjects.html">SUBJECTS</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                    <li><a href="studentprojects.html">STUDENT PROJECTS</a></li>
+                </ul>
+            </div>
+        </nav>
+</section>
+<div class="text-box">
+    <h1>UNDERGRAD COURSES</h1>
+
+</div>
+    <div class="bg"></div>
+<section class="toknow">
+    <h1>Level 100</h1>
+    <h3>First Semester</h3>
+    <li>UGRC 150	Critical Thinking and Practical Reasoning</li>
+    <li>STAT 111	Introduction to Statistics and Probability I</li>
+    <li>DCIT 105	Mathematics for IT Professionals</li>
+    <li>DCIT 101	Introduction to Computer Science</li>
+    <li>DCIT 103	Office Productivity Tools</li>
+    <h4>Electives:</h4>
+    <li>ECON 101	Introduction to Economics I</li>
+    <h3>Second Semestter</h3>
+    <li>UGRC 110	Academic Writing I</li>
+    <li>MATH 122	Calculus I</li>
+    <li>MATH 126	Algebra and Geometry</li>
+    <li>STAT 112	Introduction to Statistics and Probability II</li>
+    <li>DCIT 104	Programming</li>
+    <li>DCIT 102	Computer Hardware Fund. and Circuits</li>
+    <h1>Level 200</h1>
+    <h3>First Semester</h3>
+    <li>UGRC 210	Academic Writing II</li>
+    <li>DCIT 201	Programming I </li>
+    <li>DCIT 203	Digital and Logic Systems Design</li>
+    <li>DCIT 205	Multi Media and Web Design</li>
+    <li>DCIT 207	Computer Architecture & Organisation</li>
+    <li>DCIT 209	E-Business Architectures</li>
+    <h3>Second Semester</h3>
+    <li>UGRC 220	Introduction to African Studies</li>
+    <li>DCIT 202	Mobile Application Development</li>
+    <li>DCIT204	Data Structures & Algorithm I</li>
+    <li>DCIT206	Systems Administration</li>
+    <li>DCIT208	Software Engineering</li>
+    <h4>Electives:</h4>
+    <li>DCIT 200	Internship</li>
+    <li>DCIT 212	Numerical and Computational Methods</li>
+    <li>DCIT 214	Information Modeling and Specification</li>
+    <h1>Level 300</h1>
+    <h3>First Semester</h3>
+    <li>DCIT 301	Operating Systems</li>
+    <li>DCIT 303	Computer Networks</li>
+    <li>DCIT 305	Database Fundamentals</li>
+    <li>DCIT 313	Introduction to Artificial Intelligence</li>
+    <li>DCIT 317	IT Project Management</li>
+    <h4>Electives:</h4>
+    <li>DCIT 307    Mini-Project</li>
+    <li>DCIT 315	Principles of 3D Environment</li>
+    <li>DCIT 321	Software Evolution</li> 
+    <h3>Second Semester</h3>
+    <li>DCIT 302	Human Computer Interaction</li>
+    <li>DCIT 304	Research Methods</li>
+    <li>DCIT 308	Data Structures and Algorithms II</li>
+    <li>DCIT 312	Information Security Management</li>
+    <li>DCIT 318	Programming II</li>
+    <h4>Electives:</h4> 
+    <li>DCIT 314	Game Engine Architecture</li> 
+    <li>DCIT 322	Database Management Administration</li>
+    <h1>Level 400</h1>
+    <h3>First Semester</h3>
+    <li>DCIT 400	Project</li>
+    <li>DCIT 401	Social, Legal, Ethical and Professional Issues</li>
+    <li>DCIT 409	Digital Forensics</li>
+    <h4>Electives:</h4>
+    <li>DCIT 413	Play and Games</li>
+    <li>DCIT 415	Advanced Software Engineering</li>
+    <li>DCIT 419	Agile Methods</li>
+    <li>DCIT 421	Persuasive Systems Development</li>
+    <h3>Second Semester</h3>
+    <li>DCIT 400	Project</li>
+    <li>DCIT 402	Management Principles in Computing</li>
+    <li>DCIT 418	Systems and Network Security</li>
+    <li>DCIT 428	Wireless Systems and Networks</li>
+    <li>DCIT 318	Programming II</li>
+    <h4>Electives:</h4>
+    <li>DCIT 404	Advanced Databases</li>
+    <li>DCIT 406	Advanced Computer Networks</li>
+    <li>DCIT 408	Compilers</li>
+    <li>DCIT 426	Telecommunication Systems</li>
+    <li>DCIT 412	Computer Vision</li>
+    <li>DCIT 414	Data Mining and Warehousing</li>
+    <li>DCIT 416	Digital Signal Processing</li>
+    <li>DCIT 422	Information Visualization</li>
+
+    
+</section>
+    
+</body>
+</html>

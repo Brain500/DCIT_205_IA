@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Computer Science Department</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.bg {
+  
+  background-image:url("images/newback205.jpg"),
+  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7))
+  ;
+
+  height: 100%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 350px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position:relative;
+    
+}
+.nav-links ul li a{
+    color: #241c66;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li ::after{
+    content:'';
+    width: 0%;
+    height:2px;
+    background: rgb(24, 22, 22);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width: 100%
+}
+.text-box{
+    width:90%;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.test-box h1{
+    font-size: 92px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #241c66;
+    background: #241c66;
+    transition: 1s;
+}
+.toknow{
+    WIDTH: 80%;
+    margin:auto;
+    text-align:center;
+    padding-top:10px;
+}
+h1{
+    font-size: 36px;
+    font-weight:600;
+}
+
+</style>
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a herf="index. html"><img src="images/copsciencebar.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="subjects.html">SUBJECTS</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                    <li><a href="studentprojects.html">STUDENT PROJECTS</a></li>
+                </ul>
+            </div>
+        </nav>
+</section>
+<div class="text-box">
+    <h1>Best Computer Science Course In West Africa</h1>
+    <p> We make coding and website design feel like the easiest thing in the world.<br> You just need to LEARN and you will understand all the concepts, that are thought.
+    </p>
+    <a href="https://www.ug.edu.gh/" class="hero-btn">University Of Ghana</a>
+</div>
+    <div class="bg"></div>
+<section class="toknow">
+    <h1>YOUR GATEWAY TO WORLD CLASS COMPUTER SCIENCE EDUCATION</h1>
+
+</section>
+</body>
+</html>

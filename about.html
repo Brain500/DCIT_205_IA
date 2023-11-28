@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Computer Science Department</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.bg {
+  
+  background-image:url("images/newback205.jpg"),
+  linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7))
+  ;
+
+  height: 50%; 
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 350px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position:relative;
+    
+}
+.nav-links ul li a{
+    color: #241c66;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li ::after{
+    content:'';
+    width: 0%;
+    height:2px;
+    background: rgb(24, 22, 22);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width: 100%
+}
+.text-box{
+    width:90%;
+    color:#FFFF;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.test-box h1{
+    font-size: 92px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #241C66;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #241c66;
+    background: #241c66;
+    transition: 1s;
+}
+.aboutus{
+    WIDTH: 80%;
+    margin:auto;
+    padding-bottom: 50px;
+    padding-top:80px;
+}
+h1{
+    font-size: 36px;
+    font-weight:600;
+}
+.knowus{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.index.html2{
+    width: 30%;
+    height: fit-content;
+}
+
+</style>
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a herf="index. html"><img src="images/copsciencebar.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="subjects.html">SUBJECTS</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                    <li><a href="studentprojects.html">STUDENT PROJECTS</a></li>
+                </ul>
+            </div>
+        </nav>
+</section>
+<div class="text-box">
+    <h1>ABOUT US</h1>
+    
+    
+</div>
+    <div class="bg"></div>
+<section class="aboutus">
+    <h1>WELCOME</h1>
+    <p>This is the Information Technology age and at its core is Computer Science. The study of computer science is therefore critical if society is to take full advantage of the benefits Information Technology has to offer and make rapid economic advances. Computer science involves the study and development of applications that allow for our everyday use of computers, the software systems that support these applications, and the means and methods used to produce both applications and systems that behave reliably, correctly and ethically. At the heart of Computer Science lies the skill of computer programming and employers who hire Computer Scientists expect adept programmers with knowledge of current techniques and tools and the ability to apply sound engineering principles to the development, construction and maintenance of computer programs.</p>
+    <p>The range of courses available in the department and the skills acquired by students enable them to find employment in many diverse fields of the economy and prepare our graduates for the computing industry, working in a project team (or research and development team), and to enable the graduate to bring specialist skills to that team. The course also provides the platform for further study or research through exposure to established and emerging technologies and methods, and to active fields of research in Computer Science.</p>
+    <p>The Department offers two undergraduate degree programmes, Bachelor of Science in Computer Science Single-Major (3:2:1:1) and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</p>
+
+</section>
+<section class="knowus">
+    <h1>Get To Know Us</h1>
+    <p1>Things get interesting because you are eager to know more , or you become eager to know more because it is interesting?</p1>
+    
+
+
+
+</section>    
+</body>
+</html>
